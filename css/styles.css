@@ -201,17 +201,17 @@ body{
 /**********End of About Styles*******/
 
 .contact-container{
-    height: 1170px;
+    height: 1200px;
     width: 600px;
     
 }
 
 .contact-map, .contact-form{
-    position: relative;
+    margin-top: 75px;
     top: 125px;
-    left: 10%;
+    left: 70%;
     border: 3px solid black;
-    /* bottom: 0px; */
+    bottom: 0px;
     margin-bottom: 75px;
 }
 
