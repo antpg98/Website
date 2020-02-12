@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    margin: 0 auto;
+    font-family: 'Bitter', serif;
+    position: relative;
+    min-height: 100vh;
+}
+
+.nav-bar{
+    width: 100%;
+    height: 70px;
+    background-color: rgba(64, 104, 61, .7);
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+}
+
+.nav-list{
+    float: right;
+}
+
+.list-item{
+    display: inline-block;
+    margin: 10px;
+    margin-top: 28px;
+    background-color: rgb(231, 71, 16);
+    padding: 10px;
+    border: 3px solid  orange;
+    border-bottom: 0px;
+    border-radius: 60% 60% 0 0;
+}
+
+/* .list-item:hover{
+    background-color: yellow;
+    border: 3px dashed green;
+    border-radius: 50%;
+    
+} */
+
+.logo{
+    height: 60px;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+.hero-img{
+    background-image: url("../images/bread.jpg");
+    width: 100%;
+    height: 800px;
+    margin-top: 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 70px 0;
+}
+
+.hero-text-box{
+    height: 50px;
+    width: 300px;
+    background-color: rgba(247, 124, 36, .2);
+    border: 3px solid rgb(221, 127, 127);
+    border-radius: 10%;   
+    position: absolute;
+    position: middle;
+    top: 90px;
+    left: 40%;
+    text-align: center;
+    box-shadow: 2px 2px  rgb(221, 127, 127);
+}
+
+.hero-text{
+    font-family: 'Josefin Sans', sans-serif;
+    color: rgb(209, 182, 130);
+    margin-top: 12px;
+}
+
+/*****End of Main******/
+
+.sec-box{ 
+   width: 100%;
+   height: 1000px;
+  }
+
+  .home-img{
+    width: 30%;
+    height: 500px;
+    border: 3px dashed red;
+    float: left;
+    margin: 100px;
+    position: absolute;
+}
+
+/* .home-img:hover{
+    display: none;
+    animation-iteration-count: 1;
+    animation-timing-function: 1;
+} */
+
+.home2-img{
+    width: 30%;
+    height: 500px;
+    border: 3px dashed rgb(221, 127, 127);
+    float: left;
+    margin: 100px;
+}
+
+.home-text{
+    border: 3px dotted red;
+    width: 30%;
+    height: 500px;
+    float: right;
+    margin: 100px;
+}
+
+/*****End of Section*****/
+
+.footer{
+    height: 70px;
+    width: 100%;
+    background-color:rgb(64, 104, 61);
+    clear: both;
+    position: relative;
+    bottom: 0px;
+}
+
+.input, .social, .copy{
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+    margin-top: 25px;     
+}
+
+.fab{
+    font-size: 2em;
+    margin-right: 10px;
+}
+
+.fa-instagram{
+    color: #fb3958;
+}
+
+.fa-twitter-square{
+    color: #00acee;
+}
+
+/************* End of Index Styles **********/
+
+.container{
+    height: 1000px;
+    width: 100%;  
+    margin: 0 20px 20px 0;
+    
+}
+
+.container-box{
+    display: block;
+    margin: auto;
+    margin-top: 25px;
+}
+.container-img{
+    width: 300px;
+    /* display: block;
+    margin: auto;
+    margin-top: 25px;
+    
+   
+}
+
+.container-audio{
+    display: block;
+    margin: auto;
+    margin-top: 25px;
+
+}
+
+.container-video{
+    display: block;
+    margin: auto;
+    margin-top: 25px; */
+}
+
+
+.about-box{
+    height: 800px;
+    width: 30%;
+    border: 3px solid red;
+    float: left;
+    margin-top: 70px;
+    margin-left: 40px;
+}
+
+.about-box p{
+    margin: 45px;
+}
+
+/**********End of About Styles*******/
+
+.contact-container{
+    height: 1170px;
+    display: inline-block;
+    width: 100%;
+    
+}
+
+.contact-map, .contact-form{
+    position: relative;
+    top: 125px;
+    left: 10%;
+    border: 3px solid black;
+    bottom: 0px;
+}
